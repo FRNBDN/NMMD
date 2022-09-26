@@ -6,59 +6,10 @@
    border:none;
    text-decoration: none;
  }
- body{
-    background-color: #5A5A5A;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: "Lustria", serif;
- }
- #main-card{
-   background-color: #FFFEF8;
-   color: #5A5A5A;
-   border-radius: 10px;
-   width: 100%;
-   max-width: 1100px;
-   margin-top: 10px;
- }
- #card-stack{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
-   flex-direction: column;
-   
- }
- .card{
-   background-color: #FFFEF8;
-   color: #5A5A5A;
-   border-radius: 10px;
-   margin-top: 10px;
-   width: 100%;
-   max-width: 1100px;
-   
- }
-/* header styling*/
- h1, h2{
-    font-family: 'Teko', sans-serif;
-    text-transform: uppercase;
-    color:#5A5A5A;
- } 
- header{
-   display:flex;
-   flex-direction: row;
-   justify-content: space-between;
- }
- #logo{
-   background:url(../images/NMMDLogo.jpg) no-repeat center/100%;
-   width: 100px;
-   height: 80px;
-   margin-left: 5px;
- }
+
+
    /*Korean font*/
-lang-ko{
+.lang-ko{
     font-family: 'Yeon Sung', cursive;
  }
  /* Cold Font*/
@@ -69,6 +20,37 @@ lang-ko{
  .hot{
    color: #8B2525;
 }
+/*Background + general style */
+body{
+   background-color: #5A5A5A;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: "Lustria", serif;
+   box-sizing: border-box;
+}
+
+ /* header styling*/
+h1, h2{
+   font-family: 'Teko', sans-serif;
+   text-transform: uppercase;
+   color:#5A5A5A;
+} 
+header{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ /* Card styling */
+
+#logo{
+      background:url(../images/NMMDLogo.jpg) no-repeat center/100%;
+      width: 100px;
+      height: 80px;
+      margin-left: 5px;
+    }
 /* Menu styling */
 #menu {
    font-size: 110%;
@@ -79,7 +61,7 @@ lang-ko{
    justify-content: end;
    margin-right: 5px;
 }
-a{
+#menu a{
    color:inherit;
 }
 
@@ -91,12 +73,48 @@ a{
 #menu a:hover, .active{
    border-bottom: 1px solid #5A5A5A;
 }
+.card-stack{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+ }
+.main-card, .card{
+   background-color: #FFFEF8;
+   color: #5A5A5A;
+   border-radius: 10px;
+   width: 100%;
+   margin-top:10px;
+   max-width: 1100px;
+}
 
+.card{
+   padding: 10px;
+}
 /*hero image*/
 #hero{
    max-width: 100%;
    height: auto;
    width: auto;
-   border-radius: 0 0 10px 10px;
    filter: grayscale(100%);
 }
+
+.button{
+   border: 1px solid;
+   border-radius: 5px;
+   padding: 10px 25px;
+}
+.button-container{
+   text-align: center;
+   margin: 15px 0 5px 0;
+}
+.button-red{
+   color: #8B2525;
+   border-color: #8B2525;
+}
+.button-blue{
+   color: #374394;
+   border-color: #374394;
+}
+
