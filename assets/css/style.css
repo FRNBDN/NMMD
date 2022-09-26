@@ -4,12 +4,23 @@
    margin:0;
    padding: 0;
    border:none;
-   background-color: #FFFEF8;
    text-decoration: none;
  }
  body{
+    background-color: #5A5A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container{
+   background-color: #FFFEF8;
    font-family: "Lustria", serif;
-    color: #5A5A5A;
+   color: #5A5A5A;
+   border-radius: 10px;
+   width: 100%;
+   max-width: 1100px;
+   margin-top: 10px;
+
  }
 /* header styling*/
  h1, h2{
@@ -26,6 +37,7 @@
    background:url(../images/NMMDLogo.jpg) no-repeat center/100%;
    width: 100px;
    height: 80px;
+   margin-left: 5px;
  }
    /*Korean font*/
 lang-ko{
@@ -47,7 +59,7 @@ lang-ko{
    display:flex;
    flex-direction: row;
    justify-content: end;
-   padding-right: 1%;
+   margin-right: 5px;
 }
 a{
    color:inherit;
@@ -67,5 +79,6 @@ a{
    background:url(../images/hero.jpeg) no-repeat center;
    height: 600px;
    width: 100%;
+   background-color: #5A5A5A;
    filter: grayscale(100%);
 }
