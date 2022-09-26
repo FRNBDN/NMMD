@@ -9,18 +9,36 @@
  body{
     background-color: #5A5A5A;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    font-family: "Lustria", serif;
  }
- .container{
+ #main-card{
    background-color: #FFFEF8;
-   font-family: "Lustria", serif;
    color: #5A5A5A;
    border-radius: 10px;
    width: 100%;
    max-width: 1100px;
    margin-top: 10px;
-
+ }
+ #card-stack{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+   
+ }
+ .card{
+   background-color: #FFFEF8;
+   color: #5A5A5A;
+   border-radius: 10px;
+   margin-top: 10px;
+   width: 100%;
+   max-width: 1100px;
+   
  }
 /* header styling*/
  h1, h2{
@@ -76,9 +94,9 @@ a{
 
 /*hero image*/
 #hero{
-   background:url(../images/hero.jpeg) no-repeat center;
-   height: 600px;
-   width: 100%;
-   background-color: #5A5A5A;
+   max-width: 100%;
+   height: auto;
+   width: auto;
+   border-radius: 0 0 10px 10px;
    filter: grayscale(100%);
 }
