@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Teko&family=Yeon+Sung&display=swap');
+
+*{
+   margin:0;
+   padding: 0;
+   border:none;
+   background-color: #FFFEF8;
+   text-decoration: none;
+ }
+ body{
+   font-family: "Lustria", serif;
+    color: #5A5A5A;
+ }
+/* header styling*/
+ h1, h2{
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    color:#5A5A5A;
+ } 
+ header{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+ #logo{
+   background:url(../images/NMMDLogo.jpg) no-repeat center/100%;
+   width: 100px;
+   height: 80px;
+ }
+   /*Korean font*/
+lang-ko{
+    font-family: 'Yeon Sung', cursive;
+ }
+ /* Cold Font*/
+ .cold{
+   color: #374394;
+}
+ /* Hot Font*/
+ .hot{
+   color: #8B2525;
+}
+/* Menu styling */
+#menu {
+   font-size: 110%;
+   letter-spacing: 4px;
+   line-height:80px;
+   display:flex;
+   flex-direction: row;
+   justify-content: end;
+   padding-right: 1%;
+}
+a{
+   color:inherit;
+}
+
+#menu li{
+   list-style-type: none;
+   margin-left: 10px;
+}
+
+#menu a:hover, .active{
+   border-bottom: 1px solid #5A5A5A;
+}
+
+/*hero image*/
+#hero{
+   background:url(../images/hero.jpeg) no-repeat center;
+   height: 600px;
+   width: 100%;
+   filter: grayscale(100%);
+}
