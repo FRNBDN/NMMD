@@ -23,7 +23,7 @@
 /*Background + general style */
 body{
    background-color: #5A5A5A;
-   background-image: linear-gradient(180deg, #37439476,#d8d8d8);
+   background-image: radial-gradient(circle, #d8d8d8, #b7b7b7, #979797, #787878, #5a5a5a);
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
@@ -100,7 +100,7 @@ header{
 }
 .double-card{
    display: flex;
-   flex-direction: row;  
+   flex-direction: row; 
 }
 .half-card{
    width:50%;
