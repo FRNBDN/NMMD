@@ -121,10 +121,12 @@ header{
    border-radius: 0 0 10px 10px;
 }
 /*button styling*/
-.button{
+/*hollow button styling & effects*/
+.button, .button-fill{
    border: 1px solid;
-   border-radius: 5px;
+   border-radius: 30px;
    padding: 10px 25px;
+   transition: 0.3s;
 }
 .button-container{
    text-align: center;
@@ -137,6 +139,38 @@ header{
 .button-blue{
    color: #374394;
    border-color: #374394;
+}
+.button:hover, .button:focus{
+   padding: 5px 15px;
+}
+/*filled button styling & effects*/
+.button-fill{
+   width: 30%;
+   max-width: 330px;
+   text-align: center;
+}
+.button-red-fill{
+   color: #FFFEF8;
+   border-color: #8b2525d5;
+   background-color: #8b2525d5;
+}
+.button-red-fill:hover, .button-red-fill:focus{
+   background-color: #8B2525;
+}
+.button-blue-fill{
+   color: #FFFEF8;
+   border-color: #374394d2;
+   background-color: #374394d2;
+}
+.button-blue-fill:hover, .button-blue-fill:focus{
+   background-color: #374394;
+}
+.free-button-container{
+   width: 100%;
+   max-width: 1100px;
+   margin: 15px 0 5px 0;
+   display: flex;
+   justify-content: space-evenly;
 }
 
 /*Footer style*/
