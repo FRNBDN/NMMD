@@ -85,20 +85,20 @@ header{
    flex-direction: column;
  }
 .main-card, .card, footer{
-   background-color: #FFFEF8;
-   color: #5A5A5A;
    width:100%;
    margin-top:10px;
    max-width: 1100px;
+   border-radius: 10px;
    box-sizing: border-box;
 }
-.main-card, .card, footer{
-   border-radius: 10px;
+.main-card, .card{
+   background-color: #FFFEF8;
+   color: #5A5A5A;
 }
 .main-card{
    line-height: 0%;
 }
-.card{
+.card, footer{
    padding: 10px;
 }
 .double-card{
@@ -179,5 +179,19 @@ header{
 /*Footer style*/
 footer{
    border-radius: 10px 10px 0 0;
+   font-size: small;
+   background-color:#5A5A5A;
+   color: #000000;
+  
+}
+#footer-top{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+#footer-bottom{
+   display: flex;
+   justify-content: space-evenly;
 }
 
