@@ -179,19 +179,41 @@ header{
 /*Footer style*/
 footer{
    border-radius: 10px 10px 0 0;
-   font-size: small;
+   font-size: x-small;
    background-color:#5A5A5A;
-   color: #000000;
+   color: #FFFEF8;
   
 }
+footer a{
+   color:inherit;
+}
+footer h2{
+   color: #FFFEF8;
+  
+}
+.horizontal-border-gradient{
+   width: 15px;
+   border-bottom: 3px solid;
+   border-image: linear-gradient(45deg, #8B2525, #374394) 1;
+   display: inline-block;
+}
+
 #footer-top{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
+   text-align: center;
+   word-spacing: 3px;
+   line-height: 15px;
+}
+.footer-contrast{
+   color:#CCAA00;
 }
 
 #footer-bottom{
+   font-size: large;
    display: flex;
    justify-content: space-evenly;
 }
+
 
