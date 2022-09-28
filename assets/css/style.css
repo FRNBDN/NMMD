@@ -53,7 +53,8 @@ header{
     }
 /* Menu styling */
 #menu {
-   font-size: 110%;
+   font-family: 'Teko', sans-serif;
+   font-size: 150%;
    letter-spacing: 4px;
    line-height:80px;
    display:flex;
@@ -71,7 +72,7 @@ header{
 }
 
 #menu a:hover, .active{
-   border-bottom: 1px solid #5A5A5A;
+   border-bottom: 4px solid #5A5A5A;
 }
 .card-stack{
    width:100%;
