@@ -50,8 +50,8 @@ header{
       height: 80px;
       margin-left: 5px;
     }
-/* Menu styling */
-#menu {
+/* Nav styling */
+#nav {
    font-family: 'Teko', sans-serif;
    font-size: 150%;
    letter-spacing: 4px;
@@ -61,15 +61,15 @@ header{
    justify-content: end;
    margin-right: 5px;
 }
-#menu a{
+#nav a{
    color:inherit;
 }
-#menu li{
+#nav li{
    list-style-type: none;
    margin-left: 10px;
 }
 /* Hover  menu*/
-#menu a:hover, .active{
+#nav a:hover, .active{
    border-bottom: 3px solid;
 }
 
@@ -251,16 +251,31 @@ footer h2{
    flex-wrap: wrap;
    justify-content: center;
   }
-  .divider{
-   border:none;
-  }
+
+
 
    
 }
-@media (max-width:775px){
+@media (max-width:790px){
    .vertical-button{
       flex-direction: row;
       min-width: 272px;
      }
+     .divider{
+      border:none;
+     }
+     
 }
 
+/*underlines*/
+.under-blue{
+   border-bottom: #0047A0 3px solid;
+}
+.under-red{
+   border-bottom: #CD2E3A 3px solid;
+}
+
+/*Menu style*/
+.menu h2{
+   font-size: 18px;
+}
