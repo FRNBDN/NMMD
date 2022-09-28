@@ -23,13 +23,12 @@
 /*Background + general style */
 body{
    background-color: #5A5A5A;
-   background-image: radial-gradient(circle, #d8d8d8, #b7b7b7, #979797, #787878, #5a5a5a);
+   background-image: url(../images/background.jpg) ;
+   background-size: 100%;
    display: flex;
-   flex-wrap: wrap;
+   font-family: "Lustria", serif;
    flex-direction: column;
    align-items: center;
-   justify-content: center;
-   font-family: "Lustria", serif;
 }
 
  /* header styling*/
@@ -65,30 +64,27 @@ header{
 #menu a{
    color:inherit;
 }
-
 #menu li{
    list-style-type: none;
    margin-left: 10px;
 }
-
+/* Hover  menu*/
 #menu a:hover, .active{
-   border-bottom: 4px solid #5A5A5A;
+   border-bottom: 3px solid;
 }
+
+ /*Styling for all cards*/
 .card-stack{
-   width:100%;
-   margin-top:10px;
-   max-width: 1100px;
+   width:101%;
+   max-width: 1110px;
    display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: stretch;
    align-content: center;
    flex-wrap: wrap;
-   flex-direction: column;
+   flex-direction: row;
  }
-.main-card, .card, footer{
-   width:100%;
-   margin-top:10px;
-   max-width: 1100px;
+ .main-card, .card{
    border-radius: 10px;
    box-sizing: border-box;
 }
@@ -97,19 +93,38 @@ header{
    color: #5A5A5A;
 }
 .main-card{
+   width:100%;
+   max-width: 1100px;
    line-height: 0%;
+   margin-top: 10px;
+   margin-bottom:5px;
+}
+.card{
+   margin: 5px;
+   width: 55%;
+   max-width: 545px;
 }
 .card, footer{
    padding: 10px;
 }
-.double-card{
+.multi-card{
    display: flex;
    flex-direction: row; 
 }
-.half-card{
-   width:50%;
+.tri-card{
+   width:33%;
    max-width: 550px;
    min-width: 141px;
+}
+.vertical-button{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.hidden-card{
+   background:transparent;
 }
 .divider{
       border-left: 1px solid #d8d8d8;
@@ -119,9 +134,10 @@ header{
 /*hero image*/
 #hero{
    max-width: 100%;
-   height: auto;
-   width: auto;
-   filter: grayscale(100%);
+   width: 1100px;
+   height: 300px;
+   object-fit: cover;
+   object-position: center;
    border-radius: 0 0 10px 10px;
 }
 /*button styling*/
@@ -135,16 +151,21 @@ header{
 .button-container{
    text-align: center;
    margin: 15px 0 5px 0;
+   align-self:flex-end;
 }
-.button-red{
+.col-red{
    color: #8B2525;
    border-color: #8B2525;
 }
-.button-blue{
+.col-blue{
    color: #374394;
    border-color: #374394;
 }
-.button:hover, .button:focus{
+.btn-expand:hover, .btn-expand:focus{
+   padding: 15px 30px;
+ 
+}
+.btn-shrink:hover, .btn-shrink:focus{
    padding: 5px 15px;
 }
 /*filled button styling & effects*/
@@ -153,36 +174,32 @@ header{
    max-width: 330px;
    text-align: center;
 }
-.button-red-fill{
+.col-red-fill{
    color: #FFFEF8;
    border-color: #8b2525d5;
    background-color: #8b2525d5;
 }
-.button-red-fill:hover, .button-red-fill:focus{
+.col-red-fill:hover, .col-red-fill:focus{
    background-color: #8B2525;
 }
-.button-blue-fill{
+.col-blue-fill{
    color: #FFFEF8;
    border-color: #374394d2;
    background-color: #374394d2;
 }
-.button-blue-fill:hover, .button-blue-fill:focus{
+.col-blue-fill:hover, .col-blue-fill:focus{
    background-color: #374394;
 }
-.free-button-container{
-   width: 100%;
-   max-width: 1100px;
-   margin: 15px 0 5px 0;
-   display: flex;
-   justify-content: space-evenly;
-}
-
 /*Footer style*/
 footer{
+   width:100%;
+   max-width: 1100px;
    border-radius: 10px 10px 0 0;
+   margin-top:10px;
    font-size: x-small;
    background-color:#5A5A5A;
    color: #FFFEF8;
+   box-sizing: border-box;
   
 }
 footer a{
@@ -206,6 +223,7 @@ footer h2{
    text-align: center;
    word-spacing: 3px;
    line-height: 15px;
+   
 }
 .footer-contrast{
    color:#CCAA00;
@@ -215,6 +233,34 @@ footer h2{
    font-size: large;
    display: flex;
    justify-content: space-evenly;
+   
 }
+/*Screen size responsiveness*/
+@media (max-width:1100px){
+   .card-stack{
+      flex-direction: column;
+   }
+   .card{
+      width:100%;
+      max-width:1100px
+   }
+   .tri-card{
+      width: 30%;
+   }
+  .multi-card{
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+  .divider{
+   border:none;
+  }
 
+   
+}
+@media (max-width:775px){
+   .vertical-button{
+      flex-direction: row;
+      min-width: 272px;
+     }
+}
 
