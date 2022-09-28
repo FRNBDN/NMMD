@@ -267,9 +267,10 @@ footer h2{
      
 }
 
-@media (max-width: 790px){
-   .dumpling{
+@media (max-width: 460px){
+   .menu-item .dumplings{
       border-radius: 10px;
+      margin-top: 5px;
    }
 }
    
