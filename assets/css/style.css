@@ -14,15 +14,15 @@
  }
  /* Cold Font*/
  .cold{
-   color: #374394;
+   color: #0047A0;
 }
  /* Hot Font*/
  .hot{
-   color: #8B2525;
+   color: 	#CD2E3A;
 }
 /*Background + general style */
 body{
-   background-color: #5A5A5A;
+   background-color: #222222;
    background-image: url(../images/background.jpg) ;
    background-size: 100%;
    display: flex;
@@ -89,8 +89,8 @@ header{
    box-sizing: border-box;
 }
 .main-card, .card{
-   background-color: #FFFEF8;
-   color: #5A5A5A;
+   background-color: #FFFFFF;
+   color: #222222;
 }
 .main-card{
    width:100%;
@@ -154,8 +154,8 @@ header{
    align-self:flex-end;
 }
 .col-red{
-   color: #8B2525;
-   border-color: #8B2525;
+   color: #CD2E3A;
+   border-color: #CD2E3A;
 }
 .col-blue{
    color: #374394;
@@ -176,19 +176,19 @@ header{
 }
 .col-red-fill{
    color: #FFFEF8;
-   border-color: #8b2525d5;
-   background-color: #8b2525d5;
+   border-color: #cd2e3b1d;
+   background-color: #cd2e3b82;
 }
 .col-red-fill:hover, .col-red-fill:focus{
-   background-color: #8B2525;
+   background-color: #CD2E3A;
 }
 .col-blue-fill{
    color: #FFFEF8;
-   border-color: #374394d2;
-   background-color: #374394d2;
+   border-color: #0048a032;
+   background-color: #0048a09b;
 }
 .col-blue-fill:hover, .col-blue-fill:focus{
-   background-color: #374394;
+   background-color: #0047A0;
 }
 /*Footer style*/
 footer{
@@ -197,7 +197,7 @@ footer{
    border-radius: 10px 10px 0 0;
    margin-top:10px;
    font-size: x-small;
-   background-color:#5A5A5A;
+   background-color:#000000df;
    color: #FFFEF8;
    box-sizing: border-box;
   
@@ -212,7 +212,7 @@ footer h2{
 .horizontal-border-gradient{
    width: 15px;
    border-bottom: 3px solid;
-   border-image: linear-gradient(45deg, #8B2525, #374394) 1;
+   border-image: linear-gradient(45deg, #CD2E3A, #0047A0) 1;
    display: inline-block;
 }
 
