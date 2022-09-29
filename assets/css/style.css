@@ -388,6 +388,9 @@ form > .button.button:active{
    #footer-contact-div{
       flex-direction: column;
    }
+   #logo{
+      width: 50px;
+   }
    
       
 }  
