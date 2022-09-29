@@ -229,45 +229,7 @@ footer h2{
 #footer-bottom > a{
     padding: 0px 20px;
 }
-/*Screen size responsiveness*/
-@media (max-width:1100px){
-   .card-stack{
-      flex-direction: column;
-   }
-   .card{
-      width:100%;
-      max-width:1100px
-   }
-   .tri-card{
-      width: 30%;
-   }
-  .multi-card{
-   flex-wrap: wrap;
-   justify-content: center;
-  }
 
-
-
-   
-}
-@media (max-width:790px){
-   .vertical-button{
-      flex-direction: row;
-      min-width: 272px;
-     }
-     .divider{
-      border:none;
-     }
-     
-}
-
-@media (max-width: 460px){
-   .menu-item .dumplings{
-      border-radius: 10px;
-      margin-top: 5px;
-   }
-}
-   
 
 
 /*underlines*/
@@ -367,13 +329,13 @@ form > .button.button:active{
    background-color: #CD2E3A;
 }
 #signup-img{
-   min-width: 200px;
-      max-width:262.5px;
-      height: auto;
-      display: inline-block;
-      object-fit: cover;
-      object-position: center;
-      border-radius: 0 0 10px 10px;
+   background-image:url(../images/signupimg.jpg);
+   background-size: 300px;
+   background-position: center;
+   width: 50%;
+   height: 400px;
+   background-repeat: no-repeat;
+   border-radius: 0 0 10px 10px;
 }
 
 #inner-content{
@@ -381,3 +343,43 @@ form > .button.button:active{
    flex-direction: row;
    flex-wrap: wrap;
 }
+
+/*Screen size responsiveness*/
+@media (max-width:1100px){
+   .card-stack{
+      flex-direction: column;
+   }
+   .card{
+      width:100%;
+      max-width:1100px
+   }
+   .tri-card{
+      width: 30%;
+   }
+  .multi-card{
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+
+}
+@media (max-width:790px){
+   .vertical-button{
+      flex-direction: row;
+      min-width: 272px;
+   }
+   .divider{
+      border:none;
+   }
+}
+
+@media (max-width: 460px){
+   .menu-item .dumplings{
+      border-radius: 10px;
+      margin-top: 5px;
+   }
+   form, #signup-img{
+      width: 100%;
+   }
+
+      
+}  
