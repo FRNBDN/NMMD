@@ -216,7 +216,7 @@ footer h2{
    #footer-contact-div{
       display: flex;
       flex-direction: row;
-}
+   }
 .footer-contrast{
    color:#CCAA00;
 }
@@ -384,6 +384,10 @@ form > .button.button:active{
    form, #signup-img{
       width: 100%;
    }
-
+   
+   #footer-contact-div{
+      flex-direction: column;
+   }
+   
       
 }  
