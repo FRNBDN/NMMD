@@ -43,8 +43,6 @@ header{
   flex-direction: row;
   justify-content: space-between;
 }
- /* Card styling */
-
 #logo{
       background:url(../images/NMMDLogo.jpg) no-repeat center/100%;
       width: 100px;
@@ -118,8 +116,7 @@ header{
    width:33%;
    max-width: 550px;
    min-width: 141px;
-}
-
+} 
 .hidden-card{
    background:transparent;
 }
@@ -162,12 +159,11 @@ header{
    text-decoration: none;
    text-align: center;
    background-color: #cd2e3b5f;
-   margin: auto;
    padding: 10px;
    border-radius: 10px;
    transition: 0.3s;
 }
-#big-button > a{
+a.tri-card{
    color: #FFFEF8;
 }
 
@@ -180,7 +176,6 @@ header{
    background-color: #CD2E3A;
 
 }
-
 
 /*Footer style*/
 footer{
@@ -334,4 +329,39 @@ iframe{
    align-items: center;
    justify-content: space-evenly;
    flex-wrap: wrap;
+}
+
+/*Form Styling*/
+#xsmall{
+   font-size: x-small;
+   font-style: italic;
+}
+
+form{
+   width: 50%;
+   min-width: 200px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-content: center;
+}
+form > input{
+   padding: 10px;
+   margin: 5px;
+   border: #222222 1px solid;
+   border-radius: 10px;
+}
+form > .button{
+   border-radius: 10px;
+   background-color: #5A5A5A;
+   border: none;
+   color: #FFFEF8;
+}
+
+form > .button:hover, form > .button:focus{
+   background-color: #0047A0;
+}
+form > .button.button:active{
+   background-color: #CD2E3A;
 }
