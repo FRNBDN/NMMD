@@ -121,10 +121,10 @@ header{
    background:transparent;
 }
 .divider{
-      border-left: 1px solid #d8d8d8;
-      height: 100px;
-      padding : 0px 1px;
-      align-self: center;
+   border-left: 1px solid #d8d8d8;
+   height: 100px;
+   padding : 0px 1px;
+   align-self: center;
 }
 /*hero image*/
 #hero{
@@ -244,11 +244,11 @@ footer h2{
 
 .menu{
    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: flex-start;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   align-items: flex-start;
 
 }
 
@@ -390,7 +390,5 @@ form > .button.button:active{
    }
    #logo{
       width: 50px;
-   }
-   
-      
+   }  
 }  
