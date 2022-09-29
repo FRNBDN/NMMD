@@ -365,3 +365,18 @@ form > .button:hover, form > .button:focus{
 form > .button.button:active{
    background-color: #CD2E3A;
 }
+#signup-img{
+   min-width: 200px;
+      max-width:262.5px;
+      height: auto;
+      display: inline-block;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 0 0 10px 10px;
+}
+
+#inner-content{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
