@@ -22,7 +22,7 @@
 }
 /*Background + general style */
 body{
-   background-color: #222222;
+   background-color: #5A5A5A;
    background-image: url(../images/background.jpg) ;
    background-size: 100%;
    display: flex;
@@ -90,7 +90,7 @@ header{
 }
 .main-card, .card{
    background-color: #FFFFFF;
-   color: #222222;
+   color: #5A5A5A;
 }
 .main-card{
    width:100%;
@@ -185,7 +185,7 @@ footer{
    border-radius: 10px 10px 0 0;
    margin-top:10px;
    font-size: x-small;
-   background-color:#000000df;
+   background-color:#5A5A5A;
    color: #FFFEF8;
    box-sizing: border-box;
    margin-top: auto;
@@ -312,7 +312,7 @@ form{
 form > input{
    padding: 10px;
    margin: 5px;
-   border: #222222 1px solid;
+   border: #5A5A5A 1px solid;
    border-radius: 10px;
 }
 form > .button{
@@ -342,6 +342,10 @@ form > .button.button:active{
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
+}
+
+.card  #newsletter {
+   color: #5A5A5A;
 }
 
 /*Screen size responsiveness*/
