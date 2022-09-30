@@ -8,37 +8,6 @@ The reasons for the creation of this website as is, it is the first project of f
 The websites target audience is people whom are interested in korean culture, people that are interested in asian cuisine. It is aming to provide all the necessary info for the peole whom are in the target audience aswell as drawing in more people to it.
 
 
-# Table of Content
-+ [UX](#ux "UX")
-  + [User Demographic](#user-demographic "User Demographic")
-  + [User Stories](#user-stories "User Stories")
-    + [Existing Members](#existing-members "Existing Members")
-    + [New Users](#new-users "New Users")
-  + [User Goals](#user-goals "User Goals")
-  + [Requirements](#requirements "Requirements")
-  + [Design](#design "Design")
-    + [Colours](#colours "Colours")
-    + [Typography](#typography "Typography")
-    + [Images](#images "Images")
-+ [Features](#features "Features")
-  + [Existing Features](#existing-features "Existing Features")
-    + [Header and Navigation Section](#header-and-navigation-section "Header and Navigation Section")
-    + [Hero Header Section](#hero-header-section "Hero Header Section")
-    + [About us Section](#about-us-section "About us Section")
-    + [2022 Events Section](#2022-events-section "2022 Events Section")
-    + [Contact and Registration Section](#contact-and-registration-section "Contact and Registration Section")
-    + [Footer Section](#footer-section "Footer Section")
-    + [Form-dump page](#form-dump-page "Form-dump page")
-  + [Features Left to Implement](#features-left-to-implement "Features Left to Implement")
-+ [Technologies used](#technologies-used "Technologies used")
-+ [Testing](#testing "Testing")
-  + [Validator Testing](#validator-testing "Validator Testing")
-  + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
-+ [Development and Deployment](#development-and-deployment "Development and Deployment")
-+ [Content](#content "Content")
-+ [Media](#media "Media")
-+ [Credits](#credits "Credits")
-
 ## UX
 
 ### Scope
@@ -94,7 +63,7 @@ A website split over three pages; Home, Menu, Find Us.
 - It can either be a seperate card or it can be included to a big main card, as is on the home page. Example of the two below
 
 ![nav](assets/images/readme-imgs/nav-example.png)
-![nav2](assets/images/readme-imgs/nav-ex2.png)
+![nav2](assets/images/readme-imgs/nav-ex-2.png)
 
 #### Footer
 - Information about how to reach us by email or phone for business and for customer concerns
@@ -164,8 +133,42 @@ In addition the Google DevTools have been used to test other form-factors not av
 - Sometimes stuff not working as intended initially
     - Fix: write the tags properly and properly close off said tags.
 
+### Unfixed Bugs
+ - No known bugs has been left unsquashed.
+
 ### Validator Testing
 - HTML
-    - Some errors were returned from the validator, easily deletable small remnants of old code. [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrnbdn.github.io%2FNMMD%2Findex.html)
+    - Some errors were returned from the validator, easily deletable small remnants of old code. [Validator Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrnbdn.github.io%2FNMMD%2Findex.html)
 - CSS
-    - 
+    - One error of old cold being present, fixed. [Validator Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffrnbdn.github.io%2FNMMD%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- Lighthouse Performance
+![lighthouse](/assets/images/readme-imgs/lighthouse.png)
+
+## Development and Deployment
+
+This project has been made in full on Gitpod connected to GitHub where I have regularly been performing commits and pushes. The repo was started off with a template by the Code Institute. 
+
+The Project is Deployed on GitHub pages.
+
+Live link: https://frnbdn.github.io/NMMD
+
+## Credits
+### Image Sources
+- https://unsplash.com/
+    - Source of Background, Dumplings, Crossroads images.
+- https://www.max.se/var-mat/delivery/
+    - Source of the delivery options from here
+- https://commons.wikimedia.org/wiki/Main_Page
+    - Source of Picture of the noodle dishes 
+- https://guide.michelin.com/
+    - Source of the Header
+- https://fontawesome.com/
+    - For icons
+
+### Resources
+#### Resources that i used during the course of this project for Inspiration and Knowledge.
+- Code Institute Walkthrough and Projects
+- https://developer.mozilla.org/en-US/
+- Colt Steele Udemy Web Developer Bootcamp
+- https://stackoverflow.com/
