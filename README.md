@@ -96,7 +96,7 @@ A website split over three pages; Home, Menu, Find Us.
 ![nav](assets/images/readme-imgs/nav-example.png)
 ![nav2](assets/images/readme-imgs/nav-ex2.png)
 
-##### Footer
+#### Footer
 - Information about how to reach us by email or phone for business and for customer concerns
 - Location of the current restaurant and the months operating.
 - Opening hours
@@ -127,3 +127,16 @@ A website split over three pages; Home, Menu, Find Us.
 - The noodles and dumplings are on different cards, making it clear that there are two choices to be made, one per card, left or right (or up or down depending on screen size).
 
 ![menu](assets/images/readme-imgs/menu.png)
+
+#### Find Us Page
+- Divided into three sections, Locations, Newsletter sign up, delivery options. As every other card on the site, everything is clearly labled so if you're looking for a specific piece of information you can easily skim through.
+- The location card is big enough to see what you are looking at and everythign is clear. Sharing the row with the news letter card.
+- The News Letter card is only asking for the bare minimum, the email you want the information on, your first name as knowing last name is not necessary. The picture on the right fits the colors of the website and the content fits the puropuse.
+- The Delivery options card is a full width and it's a decision I took because much like the width of the card, we have a wide option of delivery partners.
+
+![menu](assets/images/readme-imgs/findus.png)
+
+#### Newsletter Signup Success
+- Page for providing feedback that the newsletter sign up worked.
+
+![newsletter](assets/images/readme-imgs/signup.png)
