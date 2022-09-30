@@ -317,16 +317,16 @@ form > input{
 }
 form > .button{
    border-radius: 10px;
-   background-color: #5A5A5A;
+   background-color: #0047A0;
    border: none;
    color: #FFFEF8;
 }
 
 form > .button:hover, form > .button:focus{
-   background-color: #0047A0;
-}
-form > .button.button:active{
    background-color: #CD2E3A;
+}
+form >{
+   background-color: #040404;
 }
 #signup-img{
    background-image:url(../images/signupimg.jpg);
