@@ -325,9 +325,7 @@ form > .button{
 form > .button:hover, form > .button:focus{
    background-color: #CD2E3A;
 }
-form >{
-   background-color: #040404;
-}
+
 #signup-img{
    background-image:url(../images/signupimg.jpg);
    background-size: 300px;

@@ -140,3 +140,32 @@ A website split over three pages; Home, Menu, Find Us.
 - Page for providing feedback that the newsletter sign up worked.
 
 ![newsletter](assets/images/readme-imgs/signup.png)
+
+### Features Left to Implement
+- Admin portal that allows for adding, removing & editing of cards.
+
+## Technologies used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
+## Testing
+As the project progressed the repsonsiveness and expeced behaviour has been tested and confirmed on chrome on android and on chrome and safari on desktop/laptop screen sizes.
+
+In addition the Google DevTools have been used to test other form-factors not available to me during this project.
+
+### List of bugs squashed.
+- Having black marker dots show up in the menu. 
+    - Fix: Change from Unordered list and List Items to divs.
+- Max width of website not being "respected" by some elements.
+    - Fix: Changing Box-sizing to Border-Box
+- No images loaded in when publishing on Github pages
+    - Fix: fixed the links, I had added an unnecessary "/" ahead of "assets"
+- Sometimes stuff not working as intended initially
+    - Fix: write the tags properly and properly close off said tags.
+
+### Validator Testing
+- HTML
+    - Some errors were returned from the validator, easily deletable small remnants of old code. [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrnbdn.github.io%2FNMMD%2Findex.html)
+- CSS
+    - 
