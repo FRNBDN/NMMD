@@ -104,10 +104,26 @@ A website split over three pages; Home, Menu, Find Us.
 - All but the opening hours are clickable, new page for email/phone/google location/website depending on what it is.
 - Responsive, aligning vertically when hitting a certain breakpoint.
 - The footer is see through to differentiate it form the rest of the cards and to make it fade into the background unless you're looking for it.
-- Footer is stuck to bottom 
+- Footer is stuck to bottom to for the same reason as above.
+
+![footer](assets/images/readme-imgs/footer-ex.png)
+
+### Background
+- Covers whole screen and the cards go to a maximum of 1100px
+- With the card order being differend and the background showing more than 10px at the time between the cards, the website looks very different between devices.
+
+### By Page
 
 #### Home Page
-- Hero Image that has a dynamic width but a fixed height, making it feel dynamic.
+- Hero Image that has a dynamic width but a fixed height, making it feel dynamic. Showing off the noodles fron and center to make no mistake what the concept of the restaurant is.
 - Information served as cards, on a desktop it shows them two per row and one per row on smaller screens.
 - Cards have hover effects and are fully responsive. The cards make the information easily digestible and there is corresponding buttons to navigate you to the topic of the card.
-- Buttons have hover effects and all the links 
+- Buttons have hover effects and all the links leaving the site are open in new tabs.
+
+![home](assets/images/readme-imgs/home.png)
+
+#### Menu Page
+- Shows off the menu items with a small description and price, the focus is on the menu items.
+- The noodles and dumplings are on different cards, making it clear that there are two choices to be made, one per card, left or right (or up or down depending on screen size).
+
+![menu](assets/images/readme-imgs/menu.png)
